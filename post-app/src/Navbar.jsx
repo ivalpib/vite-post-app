@@ -2,12 +2,14 @@ import { useState } from 'react'
 function Navbar(){
     return (
         <>     
-            <ul>
-                <a href=''><li>Post</li></a>
-                <a href=''><li>Profile</li></a>
-                <a href=''><li>Contact</li></a>
-                <a href=''><li>About</li></a>
-            </ul>
+           <a href="" className="logo">Logo</a>
+           <nav className="navbar">
+                <a href=''>Post</a>
+                <a href=''>Profile</a>
+                <a href=''>Contact</a>
+                <a href=''>About</a>
+           </nav>
+                
         </>
     )
 }
